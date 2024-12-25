@@ -1,0 +1,14 @@
+# util
+
+## Before work
+```shell
+openjdk version "17.0.13" 2024-10-15
+OpenJDK Runtime Environment (build 17.0.13+11-Ubuntu-2ubuntu122.04)
+OpenJDK 64-Bit Server VM (build 17.0.13+11-Ubuntu-2ubuntu122.04, mixed mode, sharing)
+```
+
+## Compile
+
+```shell
+javac DataCategorizer.java
+jar cfe util.jar DataCategorizer DataCategorizer.class
